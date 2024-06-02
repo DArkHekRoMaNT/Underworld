@@ -1,0 +1,20 @@
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema https://raw.githubusercontent.com/DArkHekRoMaNT/VSMods/master/Mod.xsd">
+	<PropertyGroup>
+		<Name>Underworld</Name>
+		<ModId>underworld</ModId>
+		<Version>0.0.1</Version>
+		<Authors>DArkHekRoMaNT</Authors>
+		<GameVersion>1.19.8</GameVersion>
+		<Description></Description>
+		<Website></Website>
+	</PropertyGroup>
+	<ItemGroup>
+		<Dependencies Include="commonlib">
+			<Version>2.3.0</Version>
+		</Dependencies>
+
+		<IncludeFiles Include="modicon.png" />
+		<IncludeFiles Include="LICENSE" />
+		<IncludeFiles Include="README.md" />
+	</ItemGroup>
+</Project>
